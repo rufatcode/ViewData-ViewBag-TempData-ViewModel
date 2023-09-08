@@ -1,0 +1,21 @@
+﻿@{
+    ViewBag.Title = "Index";
+}
+@model HomeVM
+
+@foreach (var item in Model.Cities)
+{
+    <p>
+        <a style="color:black">City Id: @item.Id</a>
+        <br />
+        <a style="text-decoration:none;color:orange" asp-controller="Home" asp-action="city" asp-route-id="@item.Id">City Name @item.Name</a>
+        <br />
+        <a style="color:green;">Country Id @item.CountryId</a>
+        <br />
+        <a style="color:gold;text-decoration:none;" asp-controller="Home" asp-action="country" asp-route-groupId="@item.CountryId">Country Name @item.Country.Name</a>
+    </p>
+    <br />
+    <br />
+    <br />
+}
+

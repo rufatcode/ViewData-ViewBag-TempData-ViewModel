@@ -1,0 +1,35 @@
+﻿<Properties StartupConfiguration="{F4B2F823-B0B4-42C7-9C55-F2B0C68D7B8E}|Default">
+  <MonoDevelop.Ide.ItemProperties.ViewDataViewBagViewModelTempData PreferredExecutionTarget="/Applications/Google Chrome.app" />
+  <MultiItemStartupConfigurations />
+  <MonoDevelop.Ide.DebuggingService.PinnedWatches />
+  <MonoDevelop.Ide.Workspace ActiveConfiguration="Debug" />
+  <MonoDevelop.Ide.DebuggingService.Breakpoints>
+    <BreakpointStore />
+  </MonoDevelop.Ide.DebuggingService.Breakpoints>
+  <MonoDevelop.Ide.Workbench ActiveDocument="ViewDataViewBagViewModelTempData/Controllers/CountryController.cs">
+    <Files>
+      <File FileName="ViewDataViewBagViewModelTempData/Program.cs" Line="16" Column="33" />
+      <File FileName="ViewDataViewBagViewModelTempData/View/_Layout.cshtml" Line="1" Column="1" />
+      <File FileName="ViewDataViewBagViewModelTempData/View/_ViewStart.cshtml" Line="1" Column="1" />
+      <File FileName="ViewDataViewBagViewModelTempData/View/_ViewImports.cshtml" Line="3" Column="2" />
+      <File FileName="ViewDataViewBagViewModelTempData/Model/City.cs" Line="9" Column="36" />
+      <File FileName="ViewDataViewBagViewModelTempData/Model/Country.cs" Line="8" Column="34" />
+      <File FileName="ViewDataViewBagViewModelTempData/Controllers/CityController.cs" Line="1" Column="1" />
+      <File FileName="ViewDataViewBagViewModelTempData/Controllers/CountryController.cs" Line="14" Column="51" />
+    </Files>
+    <Pads>
+      <Pad Id="ProjectPad">
+        <State name="__root__">
+          <Node name="ViewDataViewBagViewModelTempData" expanded="True">
+            <Node name="ViewDataViewBagViewModelTempData" expanded="True">
+              <Node name="Controllers" expanded="True">
+                <Node name="CountryController.cs" selected="True" />
+              </Node>
+              <Node name="Views" expanded="True" />
+            </Node>
+          </Node>
+        </State>
+      </Pad>
+    </Pads>
+  </MonoDevelop.Ide.Workbench>
+</Properties>

@@ -1,0 +1,19 @@
+﻿@{
+    ViewBag.Title = "City";
+}
+@model List<City>
+
+
+@foreach (var item in @Model)
+{
+    <p>
+        <a>City Id: @item.Id</a>
+        <br />
+        <a>City Name @item.Name</a>
+        <br />
+        <a>Country Name @item.Country.Name</a>
+    </p>
+    <br />
+    <br />
+    <br />
+}
