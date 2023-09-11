@@ -1,5 +1,5 @@
 ﻿using System;
-using ViewDataViewBagViewModelTempData.Model;
+using ViewDataViewBagViewModelTempData.Models;
 
 namespace ViewDataViewBagViewModelTempData.ViewModel
 {

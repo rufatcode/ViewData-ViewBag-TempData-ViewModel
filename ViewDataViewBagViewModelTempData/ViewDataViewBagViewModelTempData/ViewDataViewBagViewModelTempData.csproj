@@ -12,6 +12,7 @@
     <None Remove="Controllers\" />
     <None Remove="ViewModel\" />
     <None Remove="Views\Home\" />
+    <None Remove="Views\Car\" />
   </ItemGroup>
   <ItemGroup>
     <Folder Include="Models\" />
@@ -19,5 +20,6 @@
     <Folder Include="Controllers\" />
     <Folder Include="ViewModel\" />
     <Folder Include="Views\Home\" />
+    <Folder Include="Views\Car\" />
   </ItemGroup>
 </Project>

@@ -1,0 +1,15 @@
+﻿@{
+    ViewData["Title"] = "Model";
+}
+
+@model List<Model>;
+
+@foreach (var item in Model)
+{
+    <p><a style="text-decoration:none;color:darkgoldenrod" asp-controller="Car" asp-action="Index">Home</a></p>
+    <p style="color:darkorange">Model Id: @item.Id</p>
+    <p style="color:orange">Model Name: <a style="text-decoration:none;color:darkmagenta;">@item.Name</a></p>
+    <p style="color:darkblue">Marka Name: <a style="text-decoration:none;color:darkseagreen;" asp-controller="Car" asp-action="Marka" asp-route-id="@item.MarkaId">@item.Marka.Name</a></p>
+    <br />
+    <br />
+}

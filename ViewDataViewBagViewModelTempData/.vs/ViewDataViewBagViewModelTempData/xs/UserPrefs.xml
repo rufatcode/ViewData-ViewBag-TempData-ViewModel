@@ -1,35 +1,51 @@
 ﻿<Properties StartupConfiguration="{F4B2F823-B0B4-42C7-9C55-F2B0C68D7B8E}|Default">
-  <MonoDevelop.Ide.ItemProperties.ViewDataViewBagViewModelTempData PreferredExecutionTarget="/Applications/Google Chrome.app" />
-  <MultiItemStartupConfigurations />
   <MonoDevelop.Ide.DebuggingService.PinnedWatches />
   <MonoDevelop.Ide.Workspace ActiveConfiguration="Debug" />
-  <MonoDevelop.Ide.DebuggingService.Breakpoints>
-    <BreakpointStore />
-  </MonoDevelop.Ide.DebuggingService.Breakpoints>
-  <MonoDevelop.Ide.Workbench ActiveDocument="ViewDataViewBagViewModelTempData/Controllers/CountryController.cs">
+  <MonoDevelop.Ide.ItemProperties.ViewDataViewBagViewModelTempData PreferredExecutionTarget="/Applications/Google Chrome.app" />
+  <MonoDevelop.Ide.Workbench ActiveDocument="ViewDataViewBagViewModelTempData/Views/Car/model.cshtml">
     <Files>
-      <File FileName="ViewDataViewBagViewModelTempData/Program.cs" Line="16" Column="33" />
-      <File FileName="ViewDataViewBagViewModelTempData/View/_Layout.cshtml" Line="1" Column="1" />
-      <File FileName="ViewDataViewBagViewModelTempData/View/_ViewStart.cshtml" Line="1" Column="1" />
-      <File FileName="ViewDataViewBagViewModelTempData/View/_ViewImports.cshtml" Line="3" Column="2" />
-      <File FileName="ViewDataViewBagViewModelTempData/Model/City.cs" Line="9" Column="36" />
-      <File FileName="ViewDataViewBagViewModelTempData/Model/Country.cs" Line="8" Column="34" />
-      <File FileName="ViewDataViewBagViewModelTempData/Controllers/CityController.cs" Line="1" Column="1" />
-      <File FileName="ViewDataViewBagViewModelTempData/Controllers/CountryController.cs" Line="14" Column="51" />
+      <File FileName="ViewDataViewBagViewModelTempData/Program.cs" Line="1" Column="1" />
+      <File FileName="ViewDataViewBagViewModelTempData/Views/_ViewImports.cshtml" Line="5" Column="54" />
+      <File FileName="ViewDataViewBagViewModelTempData/ViewModel/HomeVM.cs" Line="1" Column="1" />
+      <File FileName="ViewDataViewBagViewModelTempData/Views/_ViewStart.cshtml" />
+      <File FileName="ViewDataViewBagViewModelTempData/Models/City.cs" />
+      <File FileName="ViewDataViewBagViewModelTempData/Models/Country.cs" />
+      <File FileName="ViewDataViewBagViewModelTempData/Controllers/HomeController.cs" Line="1" Column="1" />
+      <File FileName="ViewDataViewBagViewModelTempData/Views/Home/Index.cshtml" Line="1" Column="1" />
+      <File FileName="ViewDataViewBagViewModelTempData/Views/Home/city.cshtml" Line="1" Column="1" />
+      <File FileName="ViewDataViewBagViewModelTempData/Views/Home/country.cshtml" />
+      <File FileName="ViewDataViewBagViewModelTempData/Views/Shared/_Layout.cshtml" />
+      <File FileName="ViewDataViewBagViewModelTempData/Controllers/CarController.cs" Line="30" Column="44" />
+      <File FileName="ViewDataViewBagViewModelTempData/Models/Marka.cs" Line="1" Column="1" />
+      <File FileName="ViewDataViewBagViewModelTempData/Models/Model.cs" Line="1" Column="1" />
+      <File FileName="ViewDataViewBagViewModelTempData/Views/Car/model.cshtml" Line="7" Column="29" />
+      <File FileName="ViewDataViewBagViewModelTempData/Views/Car/marka.cshtml" Line="19" Column="15" />
+      <File FileName="ViewDataViewBagViewModelTempData/ViewModel/CarVM.cs" Line="8" Column="28" />
+      <File FileName="ViewDataViewBagViewModelTempData/Views/Car/Index.cshtml" Line="16" Column="1" />
     </Files>
     <Pads>
       <Pad Id="ProjectPad">
         <State name="__root__">
           <Node name="ViewDataViewBagViewModelTempData" expanded="True">
-            <Node name="ViewDataViewBagViewModelTempData" expanded="True">
-              <Node name="Controllers" expanded="True">
-                <Node name="CountryController.cs" selected="True" />
+            <Node name="ViewDataViewBagViewModelTempData">
+              <Node name="Controllers" expanded="True" />
+              <Node name="Models" expanded="True" />
+              <Node name="ViewModel" expanded="True" />
+              <Node name="Views">
+                <Node name="Car" expanded="True">
+                  <Node name="model.cshtml" selected="True" />
+                </Node>
+                <Node name="Home" expanded="True" />
+                <Node name="Shared" expanded="True" />
               </Node>
-              <Node name="Views" expanded="True" />
             </Node>
           </Node>
         </State>
       </Pad>
     </Pads>
   </MonoDevelop.Ide.Workbench>
+  <MonoDevelop.Ide.DebuggingService.Breakpoints>
+    <BreakpointStore />
+  </MonoDevelop.Ide.DebuggingService.Breakpoints>
+  <MultiItemStartupConfigurations />
 </Properties>

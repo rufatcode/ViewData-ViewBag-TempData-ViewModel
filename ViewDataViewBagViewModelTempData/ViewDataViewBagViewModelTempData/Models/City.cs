@@ -1,5 +1,5 @@
 ﻿using System;
-namespace ViewDataViewBagViewModelTempData.Model
+namespace ViewDataViewBagViewModelTempData.Models
 {
 	public class City
 	{

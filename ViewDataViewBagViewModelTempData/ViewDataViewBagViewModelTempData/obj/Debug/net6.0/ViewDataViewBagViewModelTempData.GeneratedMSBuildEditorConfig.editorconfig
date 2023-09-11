@@ -40,6 +40,18 @@ build_metadata.AdditionalFiles.CssScope =
 build_metadata.AdditionalFiles.TargetPath = UGFnZXMvX1ZpZXdTdGFydC5jc2h0bWw=
 build_metadata.AdditionalFiles.CssScope = 
 
+[/Volumes/Mac/AspNet/ViewData-ViewBag-TempData-ViewModel/ViewDataViewBagViewModelTempData/ViewDataViewBagViewModelTempData/Views/Car/Index.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3MvQ2FyL0luZGV4LmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
+[/Volumes/Mac/AspNet/ViewData-ViewBag-TempData-ViewModel/ViewDataViewBagViewModelTempData/ViewDataViewBagViewModelTempData/Views/Car/marka.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3MvQ2FyL21hcmthLmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
+[/Volumes/Mac/AspNet/ViewData-ViewBag-TempData-ViewModel/ViewDataViewBagViewModelTempData/ViewDataViewBagViewModelTempData/Views/Car/model.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3MvQ2FyL21vZGVsLmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
 [/Volumes/Mac/AspNet/ViewData-ViewBag-TempData-ViewModel/ViewDataViewBagViewModelTempData/ViewDataViewBagViewModelTempData/Views/Home/city.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3MvSG9tZS9jaXR5LmNzaHRtbA==
 build_metadata.AdditionalFiles.CssScope = 

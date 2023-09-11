@@ -1,0 +1,23 @@
+﻿
+
+@{
+    ViewData["Title"] = "Marka";
+}
+
+@model List<Marka>;
+<p>@ViewBag.Demo</p>
+<p>@ViewData["Data"]</p>
+<p>@TempData["Demo"]</p>
+
+@foreach (var item in Model)
+    {
+        <p><a style="text-decoration:none;color:goldenrod;" asp-controller="Car" asp-action="Index">Home</a></p>
+        <p style="color:orange">Marka Id: @item.Id</p>
+        <p style="color:darkgrey">Marka Name: <a style="text-decoration:none;color:red;">@item.Name</a></p>
+        @foreach (var j in item.Models)
+            {
+                <p style="color:lawngreen">Model Name: <a asp-controller="Car" asp-action="Model" asp-route-id="@j.Id" style="text-decoration:none;color:yellowgreen;">@j.Name</a></p>
+            }
+        <br />
+        <br />
+    }

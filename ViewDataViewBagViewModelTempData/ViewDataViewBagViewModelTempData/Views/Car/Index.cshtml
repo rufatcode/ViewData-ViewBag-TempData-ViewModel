@@ -1,0 +1,29 @@
+﻿@{
+    ViewData["Title"] = "Index";
+}
+
+@model CarVM
+<p>@ViewBag.Demo</p>
+<p>@ViewData["Data"]</p>
+<p>@TempData["Demo"]</p>
+@foreach (var item in Model.Models)
+{
+    <p style="color:orange">Model Id: @item.Id</p>
+    <p style="color:seagreen">Model Name: <a asp-controller="Car" asp-action="Model" asp-route-id="@item.Id" style="text-decoration:none;color:green">@item.Name</a></p>
+    <p style="color:darkcyan">Marka Name: <a asp-controller="Car" asp-action="Marka" asp-route-id="@item.MarkaId" style="text-decoration:none;color:orangered;">@item.Marka.Name</a></p>
+    <p style="color:bisque;">marka Id: @item.MarkaId</p>
+
+    <br />
+    <br />
+}
+
+@*@foreach (var item in (IEnumerable<Model>)ViewData["Demo"])
+    {
+        <p>@item.Name</p>
+    }*@
+
+
+
+
+
+
